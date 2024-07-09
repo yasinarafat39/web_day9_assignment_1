@@ -193,3 +193,66 @@ body {
 .video-for-inspiration .youtube-source-video iframe {
   border-radius: 16px;
 }
+
+/* Current target section */
+
+.current-target {
+  margin-bottom: 111px;
+}
+ 
+.current-target header {
+  text-align: center;
+  margin: 0 144px 48px;
+}
+
+.current-target header .title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+.current-target header .description {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.technologies {
+  display: flex;
+  gap: 24px;
+}
+
+.technology {
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.technology-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.technology-2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.technology-3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.technology .title {
+  margin: 24px 0 8px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.technology .description {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.technology a {
+  color: #0d1321;
+}
