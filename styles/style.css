@@ -41,6 +41,7 @@ body {
 
 .btn {
   background-color: white;
+  cursor: pointer;
   padding: 12px 20px;
   border: 1px solid rgba(13, 19, 33, 0.7);
   font-size: 20px;
@@ -199,7 +200,7 @@ body {
 .current-target {
   margin-bottom: 111px;
 }
- 
+
 .current-target header {
   text-align: center;
   margin: 0 144px 48px;
@@ -255,4 +256,63 @@ body {
 
 .technology a {
   color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px; 
+}
+
+/* Next Target */
+
+.next-target header {
+  text-align: center;
+  margin: 0 144px 48px;
+}
+.next-target header .title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+.next-target header .description {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.next-technologies{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.next-technology {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.next-technology .title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.next-technology .description {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.next-technology a {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px; 
 }
