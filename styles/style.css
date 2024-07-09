@@ -28,6 +28,7 @@ body {
 .btn-primary {
   padding: 17px 24px;
   background-color: #0d1321;
+  color: white;
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
@@ -52,4 +53,31 @@ body {
   font-size: 28px;
   font-weight: 800;
   line-height: 33px;
+}
+
+/* Hero section */
+
+.hero-section {
+  text-align: center;
+  background-image: url("../assets/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 26px 221px 44px;
+}
+
+.hero-section .text-content {
+  margin: 32px 0;
+}
+
+.hero-section .title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+
+.hero-section .sub-title {
+  font-size: 16px;
+  line-height: 26px;
 }
